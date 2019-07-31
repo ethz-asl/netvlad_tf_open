@@ -32,6 +32,9 @@ generate_messages(
   sensor_msgs
 )
 
+catkin_package(
+  CATKIN_DEPENDS message_runtime
+)
 #############
 ## Install ##
 #############
